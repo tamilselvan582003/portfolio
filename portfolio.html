@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpeg">
+    <script src="https://kit.fontawesome.com/93211b1fef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>JVAV DEVELOPER</p>
+            <h1>Hi, I'am <span>TamilSelvan</span><br>Lakshmanan From India</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-clo-1">
+                <img src="61288.JPG">
+            </div>
+            <div class="about-clo-2">
+                <h1 class="sub-title">About Me</h1> 
+                <p>Hello there! I'm Tamilselvan Lakshmanan, thrilled to have you visit my portfolio. 
+                    As a budding Java developer, I am driven by a passion for crafting efficient and elegant solutions to modern challenges <br>in software development. 
+                    I am eager to learn new technologies and achieve the organization's goals, leveraging my enthusiasm and dedication to contribute effectively to its success.
+                </p> 
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Developer</span><br>Frond-End developer</li>
+                        <li><span>JAVA Developer</span><br>Advance Java</li>
+                        <li><span>Cloud Computing</span><br>Google Cloud Platform (GCP)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B.E - Mechanical Engineering<br> M Kumarasamy College of Engineering,Karur<br>Grade: 8.459 CGPA</li>
+                        <li><span>2019-2020</span><br>Higher Secondary<br>Vivekananda Matric. Hr. Sec. School,Namakkal<br>Grade: 79%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------------------------------------- Projects --------------------------------------------------------------------------------- -->
+
+ <div id="achievements">
+    <div class="container">
+        <h1 class="sub-title">Achievements</h1>
+        <div class="achievements-list">
+            <div>
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <h2>Associate Cloud Engineer</h2>
+                <p>I have successfully completed the Cloud Computing course on Google Cloud Platform and achieved the Google Cloud Certified Associate Cloud Engineer position. This certification demonstrates my ability to deploy applications, monitor operations, and manage enterprise solutions using Google Cloud technologies.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>5-Star Java Problem Solver on HackerRank</h2>
+                <p>Secured a 5-star rating in Java problem-solving on HackerRank, demonstrating my advanced skills in Java coding and my ability to tackle and resolve intricate programming challenges effectively.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gears"></i>
+                <h2>Autodesk : Fusion 360</h2>
+                <p>I have successfully completed the Autodesk Fusion 360 course. This training has equipped me with skills in 3D modeling, design, simulation, and collaboration, enhancing my ability to create and refine innovative product designs using Fusion 360's comprehensive toolset.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-water"></i>
+                <h2>Pool Boiling Research</h2>
+                <p>This comprehensive research project aims to investigate the substantial enhancement of CHF(Critical Heat Flux) within heat transfer applications by introducing a novel hybrid nanofluid composed of magnetite water, silicon di oxide and bismuth telluride nanoparticles.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div> 
+    </div>
+ </div> 
+<!-- --------------------------------------- projects ---------------------------------- -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="portfolio 5.PNG" >
+                <div class="layer">
+                    <h3>My Web Development Portfolio</h3>
+                    <p>Welcome to my portfolio, featuring my skills, education, and projects in web development. Built using HTML, CSS, and JavaScript, this site demonstrates my ability to create functional and visually appealing websites. Explore my journey and achievements.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="calculator.PNG" >
+                <div class="layer">
+                    <h3>WebCalc: Interactive Math Calculator</h3>
+                    <p>Welcome to WebCalc, an interactive math calculator built with HTML, CSS, and JavaScript. Solve basic arithmetic to advanced calculus effortlessly with our sleek, user-friendly interface. Enhance your problem-solving skills with WebCalc today.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="cycle.jpg" >
+                <div class="layer">
+                    <h3>Three Cranked Bicycle</h3>
+                    <p>It is a customized bicycle with a sprocket and pinion configuration that doubles the speed. supported by a device for pedaling backwards that lessens torque during beginning pedaling.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- --------------------------------------------------- contact --------------------------------------------- -->
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>tamilselvan5.offl@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-7708364772</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tamilselvan-lakshmanan-855832278/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/tamilselvan582003"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_tamilselvan.l_?igsh=MXI3cGwyazM3YnZ2eA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.snapchat.com/add/tamilselvan_05?share_id=tKOg6zShA8A&locale=en-IN"><i class="fa-brands fa-square-snapchat"></i></a>
+                </div>
+                <a href="TAMILSELVAN_L.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> TAMILSELVAN. Made with <i class="fa-solid fa-shield-heart" id="tam"></i> by TS</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for( tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for( tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+    var side = document.getElementById("sidemenu");
+    function openmenu(){
+        side.style.right="0";
+    }
+    function closemenu(){
+        side.style.right="-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbza7f7FDwcbCEYhBcOw52GcbqnjBsP_Bq0bt0gyqTpVe8YlAUiGCCEn25B8NSz9_IKt/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>

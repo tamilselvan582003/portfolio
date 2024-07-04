@@ -1,0 +1,14 @@
+WebCalc: Interactive Math Calculator</h2>
+                <p>Welcome to WebCalc, an interactive math calculator built with HTML, CSS, and JavaScript. Solve basic arithmetic to advanced calculus effortlessly with our sleek, user-friendly interface. Enhance your problem-solving skills with WebCalc today.</p>
+                
+
+
+
+My Web Development Portfolio</h2>
+                <p>Welcome to my portfolio, featuring my skills, education, and projects in web development. Built using HTML, CSS, and JavaScript, this site demonstrates my ability to create functional and visually appealing websites. Explore my journey and achievements.</p>
+                
+
+
+Three Cranked Bicycle </h2>
+                <p>It is a customized bicycle with a sprocket and pinion configuration that doubles the speed. supported by a device for pedaling backwards that lessens torque during beginning pedaling.</p>
+                
